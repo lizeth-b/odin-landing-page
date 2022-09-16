@@ -1,9 +1,55 @@
-* {
-  box-sizing: border-box;
+:root {
+  /* Colors */
+  --main-color: #1F2937;
+  --accent-color: #3882F6;
+  --main-text-color: #F9FAF8;
+  --secondary-text-color: #E5E7EB;
+
+  /* Fonts */
+  --font: 'Roboto', sans-serif;
 }
 
-header, footer, .section__hero {
-  background-color: #1f2937;
+html {
+  box-sizing: border-box;
+  font-family: var(--font);
 }
 
 /* Header */
+header {
+  display: flex;
+  align-items: center;
+  background-color: var(--main-color);
+}
+
+.header__logo {
+  margin-right: auto;
+  font-size: 24px;
+  font-weight: bolder;
+  color: var(--main-text-color);
+}
+
+.header__nav {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+  color: var(--secondary-text-color)
+}
+
+/* Hero section */
+.section__hero {
+  background-color: var(--main-color);
+}
+
+/* Info section */
+
+
+/* Quote section */
+
+
+/* CTA section */
+
+
+/* Footer */
+footer {
+  background-color: var(--main-color);
+}
