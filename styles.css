@@ -9,9 +9,22 @@
   --font: 'Roboto', sans-serif;
 }
 
-html {
+/* Reset spacing, specify font */
+html, body, *, *::before, *::after {
   box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
   font-family: var(--font);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  flex: auto;
 }
 
 /* Header */
