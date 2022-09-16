@@ -27,11 +27,24 @@ main {
   flex: auto;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* Header */
 header {
+  background-color: var(--main-color);
+}
+
+.header {
   display: flex;
   align-items: center;
-  background-color: var(--main-color);
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 0 20px;
 }
 
 .header__logo {
@@ -43,6 +56,7 @@ header {
 
 .header__nav {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   list-style-type: none;
   color: var(--secondary-text-color)
