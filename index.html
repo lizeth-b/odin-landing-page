@@ -11,10 +11,10 @@
   <title>Home</title>
 </head>
 <body>
-  <header>
-    <div class="header">
-      <div class="header__logo">Header Logo</div>
-      <ul class="header__nav">
+  <header class="section__header">
+    <div class="section section__header--container">
+      <div class="section__header--logo">Header Logo</div>
+      <ul class="section__header--nav">
         <li><a href="#">header link one</a></li>
         <li><a href="#">header link two</a></li>
         <li><a href="#">header link three</a></li>
@@ -23,56 +23,64 @@
   </header>
 
   <main>
-    <div class="section section__hero">
-      <div class="section__hero--text">
-        <h1>This website is awesome</h1>
-        <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-        <button>Sign up</button>
-      </div>
-      <div class="section__hero--image">
-        <img />
-        <p>this is a placeholder for an image</p>
-      </div>
-    </div>
-
-    <div class="section section__info">
-      <h2 class="section__info--heading">Some random information.</h2>
-      <div class="section__info--items">
-        <div class="section__info--item">
-          <img />
-          <p>this is some subtext under an illustration or image</p>
+    <section class="section__hero">
+      <div class="section section__hero--container">
+        <div class="section__hero--text">
+          <h1>This website is awesome</h1>
+          <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+          <button>Sign up</button>
         </div>
-        <div class="section__info--item">
+        <div class="section__hero--image">
           <img />
-          <p>this is some subtext under an illustration or image</p>
-        </div>
-        <div class="section__info--item">
-          <img />
-          <p>this is some subtext under an illustration or image</p>
-        </div>
-        <div class="section__info--item">
-          <img />
-          <p>this is some subtext under an illustration or image</p>
+          <p>this is a placeholder for an image</p>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="section section__quote">
-      <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
-      <h3>-Thor, God of Thunder</h3>
-    </div>
+    <section class="section__info">
+      <div class="section section__info--container">
+        <h2 class="section__info--heading">Some random information.</h2>
+        <div class="section__info--items">
+          <div class="section__info--item">
+            <img />
+            <p>this is some subtext under an illustration or image</p>
+          </div>
+          <div class="section__info--item">
+            <img />
+            <p>this is some subtext under an illustration or image</p>
+          </div>
+          <div class="section__info--item">
+            <img />
+            <p>this is some subtext under an illustration or image</p>
+          </div>
+          <div class="section__info--item">
+            <img />
+            <p>this is some subtext under an illustration or image</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <div class="section section__cta">
-      <div class="section__cta--content">
+    <section class="section__quote">
+      <div class="section section__quote--container">
+        <p class="section__quote--text">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+        <h3 class="section__quote--byline">-Thor, God of Thunder</h3>
+      </div>
+    </section>
+
+    <section class="section__cta">
+      <div class="section section__cta--container">
         <div class="section__cta--text">
           <h3>Call to action! It's time!</h3>
           <p>Sign up for our product by clicking that button right over there!</p>
         </div>
         <button>Sign up</button>
       </div>
-    </div>
+    </section>
   </main>
 
-  <footer>Copyright © The Odin Project 2022</footer>
+  <footer class="section__footer">
+    <div class="section section__footer--container">Copyright © The Odin Project 2022</div>
+  </footer>
 </body>
 </html>

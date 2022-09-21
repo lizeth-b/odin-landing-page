@@ -1,3 +1,4 @@
+/* Set variables */
 :root {
   /* Colors */
   --main-color: #1F2937;
@@ -32,29 +33,32 @@ a {
   color: inherit;
 }
 
+.section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 /* Header */
-header {
+.section__header {
   background-color: var(--main-color);
 }
 
-.header {
+.section__header--container {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
-  max-width: 1000px;
-  margin: 20px auto;
-  padding: 0 20px;
 }
 
-.header__logo {
+.section__header--logo {
   margin-right: auto;
   font-size: 24px;
   font-weight: bolder;
   color: var(--main-text-color);
 }
 
-.header__nav {
+.section__header--nav {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -68,7 +72,9 @@ header {
 }
 
 /* Info section */
-
+.section__info {
+  background-color: var(--main-color);
+}
 
 /* Quote section */
 
@@ -77,6 +83,8 @@ header {
 
 
 /* Footer */
-footer {
+.section__footer {
+  text-align: center;
   background-color: var(--main-color);
+  color: var(--secondary-text-color);
 }
