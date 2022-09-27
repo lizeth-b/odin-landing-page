@@ -202,6 +202,38 @@ button {
 
 
 /* CTA section */
+.section__cta {
+  display: flex;
+  justify-content: center;
+  color: var(--main-text-color);
+}
+
+.section__cta--container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 50px 25px;
+  border-radius: 10px;
+  padding: 45px 130px;
+  background-color: var(--accent-color);
+}
+
+.section__cta--text {
+  flex: 1;
+}
+
+.section__cta--button {
+  flex: 1;
+  border: 3px solid var(--main-text-color);
+}
+
+@media screen and (max-width: 750px) {
+  .section__cta--container {
+    flex-direction: column;
+    padding: 45px 25px;
+  }
+}
 
 
 /* Footer */
