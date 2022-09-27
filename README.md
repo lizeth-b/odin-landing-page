@@ -1,2 +1,2 @@
-# odin-landing-page
+# Odin Landing Page
 Example of a landing page.
