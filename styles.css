@@ -121,7 +121,7 @@ button {
   color: var(--secondary-text-color)
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 750px) {
   .section__hero--container {
     flex-direction: column;
   }
@@ -169,7 +169,7 @@ button {
   color: var(--placeholder-color);
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 750px) {
   .section__info--items {
     flex-direction: column;
     gap: 75px;
